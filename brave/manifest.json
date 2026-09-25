@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Alacritty",
+  "version": "1.0.0",
+  "description": "Alacritty default palette for Brave/Chromium.",
+  "theme": {
+    "colors": {
+      "frame": [24, 24, 24],
+      "frame_inactive": [24, 24, 24],
+      "frame_incognito": [24, 24, 24],
+      "frame_incognito_inactive": [24, 24, 24],
+      "toolbar": [40, 40, 40],
+      "toolbar_button_icon": [216, 216, 216],
+      "tab_text": [216, 216, 216],
+      "tab_background_text": [127, 127, 127],
+      "bookmark_text": [216, 216, 216],
+      "omnibox_background": [24, 24, 24],
+      "omnibox_text": [216, 216, 216],
+      "ntp_background": [24, 24, 24],
+      "ntp_text": [216, 216, 216],
+      "ntp_link": [106, 159, 181],
+      "button_background": [40, 40, 40]
+    }
+  }
+}
