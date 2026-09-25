@@ -1,0 +1,22 @@
+{
+  "name": "alacritty-theme",
+  "displayName": "Alacritty",
+  "description": "Alacritty default palette",
+  "version": "1.0.0",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Alacritty",
+        "uiTheme": "vs-dark",
+        "path": "./themes/alacritty-color-theme.json"
+      }
+    ]
+  }
+}
