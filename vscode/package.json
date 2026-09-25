@@ -3,7 +3,11 @@
   "displayName": "Alacritty",
   "description": "Alacritty default palette",
   "version": "1.0.0",
-  "publisher": "local",
+  "publisher": "zeldxh",
+  "author": {
+    "name": "Zel",
+    "url": "https://github.com/zeldxh"
+  },
   "engines": {
     "vscode": "^1.60.0"
   },

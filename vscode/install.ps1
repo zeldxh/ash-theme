@@ -3,7 +3,7 @@
 $pkg  = Get-Content "$PSScriptRoot\package.json" -Raw | ConvertFrom-Json
 $dest = Join-Path $HOME ".vscode\extensions\$($pkg.publisher).$($pkg.name)-$($pkg.version)"
 
-Get-ChildItem "$HOME\.vscode\extensions" -Directory -Filter "$($pkg.publisher).$($pkg.name)-*" |
+Get-ChildItem "$HOME\.vscode\extensions" -Directory -Filter "*.$($pkg.name)-*" |
     Remove-Item -Recurse -Force
 
 New-Item -ItemType Directory -Force $dest | Out-Null
