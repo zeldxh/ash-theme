@@ -1,0 +1,98 @@
+/* Alacritty theme for Discord (Vencord -> Custom CSS / QuickCSS).
+   Palette: bg #181818, raised #282828, text #d8d8d8, muted #7f7f7f. */
+
+:root,
+.theme-dark,
+.theme-darker,
+.theme-midnight {
+  /* Font */
+  --font-primary: "IosevkaTerm Nerd Font Mono", "gg sans", sans-serif;
+  --font-display: "IosevkaTerm Nerd Font Mono", "gg sans", sans-serif;
+  --font-headline: "IosevkaTerm Nerd Font Mono", "gg sans", sans-serif;
+  --font-code: "IosevkaTerm Nerd Font Mono", Consolas, monospace;
+
+  /* Backgrounds (classic variable names) */
+  --background-primary: #181818;
+  --background-secondary: #181818;
+  --background-secondary-alt: #181818;
+  --background-tertiary: #181818;
+  --background-accent: #282828;
+  --background-floating: #282828;
+  --background-mobile-primary: #181818;
+  --background-mobile-secondary: #181818;
+  --chat-background: #181818;
+  --channeltextarea-background: #282828;
+  --deprecated-store-bg: #181818;
+  --background-modifier-hover: rgba(216, 216, 216, 0.06);
+  --background-modifier-selected: rgba(216, 216, 216, 0.10);
+  --background-modifier-active: rgba(216, 216, 216, 0.14);
+  --background-modifier-accent: rgba(216, 216, 216, 0.08);
+
+  /* Backgrounds (newer variable names) */
+  --background-base-lowest: #181818;
+  --background-base-lower: #181818;
+  --background-base-low: #181818;
+  --background-surface-high: #282828;
+  --background-surface-higher: #282828;
+  --background-surface-highest: #282828;
+  --chat-background-default: #181818;
+  --bg-base-primary: #181818;
+  --bg-base-secondary: #181818;
+  --bg-base-tertiary: #181818;
+  --border-subtle: #282828;
+  --border-normal: #383838;
+
+  /* Text */
+  --text-normal: #d8d8d8;
+  --text-default: #d8d8d8;
+  --text-strong: #f8f8f8;
+  --text-muted: #7f7f7f;
+  --text-subtle: #7f7f7f;
+  --header-primary: #f8f8f8;
+  --header-secondary: #a8a8a8;
+  --interactive-normal: #a8a8a8;
+  --interactive-hover: #f8f8f8;
+  --interactive-active: #ffffff;
+  --interactive-muted: #6b6b6b;
+
+  /* Accent: Alacritty blue in place of blurple */
+  --brand-experiment: #6a9fb5;
+  --brand-500: #6a9fb5;
+  --brand-560: #82b8c8;
+  --brand-600: #82b8c8;
+  --text-link: #82b8c8;
+  --mention-foreground: #82b8c8;
+  --mention-background: rgba(106, 159, 181, 0.15);
+
+  /* Status colors */
+  --status-positive: #90a959;
+  --status-positive-background: #90a959;
+  --status-warning: #f4bf75;
+  --status-danger: #c55555;
+  --status-danger-background: #c55555;
+  --status-online: #90a959;
+  --status-idle: #f4bf75;
+  --status-dnd: #c55555;
+}
+
+/* Use the font everywhere text is typed or shown */
+body, button, input, textarea, select {
+  font-family: var(--font-primary);
+}
+
+/* Code blocks: Alacritty syntax colors */
+.hljs { background: #282828 !important; color: #d8d8d8; }
+.hljs-comment, .hljs-quote { color: #7f7f7f; font-style: italic; }
+.hljs-keyword, .hljs-selector-tag, .hljs-built_in { color: #aa759f; }
+.hljs-string, .hljs-addition { color: #90a959; }
+.hljs-number, .hljs-literal, .hljs-attr { color: #f4bf75; }
+.hljs-title, .hljs-function .hljs-title, .hljs-section { color: #6a9fb5; }
+.hljs-type, .hljs-class .hljs-title { color: #f4bf75; }
+.hljs-variable, .hljs-template-variable { color: #d8d8d8; }
+.hljs-tag, .hljs-name, .hljs-deletion { color: #d06060; }
+.hljs-regexp, .hljs-symbol { color: #75b5aa; }
+
+/* Thin, quiet scrollbars */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #383838; border-radius: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
