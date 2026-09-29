@@ -1,0 +1,53 @@
+{
+  "manifest_version": 2,
+  "name": "Alacritty",
+  "version": "1.0.0",
+  "description": "Alacritty default palette for Firefox.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "alacritty-theme@zeldxh"
+    }
+  },
+  "theme": {
+    "colors": {
+      "frame": "#181818",
+      "frame_inactive": "#181818",
+      "toolbar": "#282828",
+      "toolbar_text": "#d8d8d8",
+      "toolbar_field": "#181818",
+      "toolbar_field_text": "#d8d8d8",
+      "toolbar_field_border": "#383838",
+      "toolbar_field_focus": "#181818",
+      "toolbar_field_text_focus": "#f8f8f8",
+      "toolbar_field_border_focus": "#6a9fb5",
+      "toolbar_field_highlight": "#383838",
+      "toolbar_field_highlight_text": "#f8f8f8",
+      "toolbar_top_separator": "#181818",
+      "toolbar_bottom_separator": "#383838",
+      "toolbar_vertical_separator": "#383838",
+      "tab_background_text": "#7f7f7f",
+      "tab_text": "#d8d8d8",
+      "tab_selected": "#282828",
+      "tab_line": "#6a9fb5",
+      "tab_loading": "#6a9fb5",
+      "bookmark_text": "#d8d8d8",
+      "icons": "#d8d8d8",
+      "icons_attention": "#f4bf75",
+      "button_background_hover": "#383838",
+      "button_background_active": "#383838",
+      "popup": "#282828",
+      "popup_text": "#d8d8d8",
+      "popup_border": "#383838",
+      "popup_highlight": "#383838",
+      "popup_highlight_text": "#f8f8f8",
+      "sidebar": "#181818",
+      "sidebar_text": "#d8d8d8",
+      "sidebar_border": "#383838",
+      "sidebar_highlight": "#383838",
+      "sidebar_highlight_text": "#f8f8f8",
+      "ntp_background": "#181818",
+      "ntp_text": "#d8d8d8",
+      "focus_outline": "#6a9fb5"
+    }
+  }
+}
