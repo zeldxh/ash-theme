@@ -6,6 +6,7 @@ Alacritty's default dark palette, ported to the tools I use. See [palette.md](pa
 |---|---|---|
 | VS Code | `vscode/` | `pwsh ./vscode/install.ps1`, reload VS Code, select **Alacritty** |
 | Brave / Chromium | `brave/` | `brave://extensions` -> Developer mode -> **Load unpacked** -> `brave/` |
+| Firefox | `firefox/` | `about:debugging` -> This Firefox -> **Load Temporary Add-on** -> `firefox/manifest.json` |
 | Discord (Vencord) | `discord/quickcss.css` | paste into Vencord -> Custom CSS |
 
 Terminal ports (WezTerm, Windows Terminal, PowerShell) live in my dotfiles.
