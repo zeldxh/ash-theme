@@ -8,6 +8,7 @@ Alacritty's default dark palette, ported to the tools I use. See [palette.md](pa
 | Brave / Chromium | `brave/` | `brave://extensions` -> Developer mode -> **Load unpacked** -> `brave/` |
 | Firefox | `firefox/` | `about:debugging` -> This Firefox -> **Load Temporary Add-on** -> `firefox/manifest.json` |
 | Discord (Vencord) | `discord/quickcss.css` | paste into Vencord -> Custom CSS |
+| ZapFast | `zapfast/Alacritty.json` | copy to `%APPDATA%\paolino\zapfast\config\themes\`, run `zapfast reload-themes`, select **Alacritty** |
 
 Terminal ports (WezTerm, Windows Terminal, PowerShell) live in my dotfiles.
 Discord client mods go against Discord's terms of service; use at your own risk.
