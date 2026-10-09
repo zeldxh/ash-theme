@@ -10,6 +10,10 @@ here=$(cd "$(dirname "$0")" && pwd)
 work=$(mktemp -d)
 trap 'rm -rf "$work"' EXIT
 
+# The theme's name before the rename, if VS Code has it registered
+old=$(sed -nE 's/^  "publisher": "([^"]+)".*/\1/p' "$here/package.json").alacritty-theme
+if code --list-extensions | grep -qx "$old"; then code --uninstall-extension "$old"; fi
+
 # Builds the .vsix next to $work and cleans up leftovers of the old folder-copy installer (also
 # under the pre-rename name, alacritty-theme): unregistered folders and their entries in
 # .obsolete, which would make VS Code drop the new install.

@@ -11,6 +11,10 @@ $exts = Join-Path $HOME '.vscode\extensions'
 $work = Join-Path ([IO.Path]::GetTempPath()) "ash-vsix-$PID"
 $vsix = "$work.vsix"
 
+# The theme's name before the rename, if VS Code has it registered
+$old = "$($pkg.publisher).alacritty-theme"
+if (code --list-extensions | Where-Object { $_ -eq $old }) { code --uninstall-extension $old }
+
 # Leftovers from the old folder-copy installer (also under the pre-rename name, alacritty-theme):
 # unregistered folders and their entries in .obsolete, which would make VS Code drop the new install
 Get-ChildItem $exts -Directory -ErrorAction SilentlyContinue |
