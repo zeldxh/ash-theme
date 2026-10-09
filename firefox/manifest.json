@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Alacritty",
+  "name": "Ash",
   "version": "1.0.0",
-  "description": "Alacritty default palette for Firefox.",
+  "description": "Ash, a dark neutral palette for Firefox.",
   "browser_specific_settings": {
     "gecko": {
-      "id": "alacritty-theme@zeldxh"
+      "id": "ash-theme@zeldxh"
     }
   },
   "theme": {

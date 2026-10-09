@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Alacritty",
+  "name": "Ash",
   "version": "1.0.0",
-  "description": "Alacritty default palette for Brave/Chromium.",
+  "description": "Ash, a dark neutral palette for Brave/Chromium.",
   "theme": {
     "colors": {
       "frame": [24, 24, 24],

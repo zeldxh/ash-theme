@@ -1,4 +1,4 @@
-/* Alacritty theme for Discord (Vencord -> Custom CSS / QuickCSS).
+/* Ash theme for Discord (Vencord -> Custom CSS / QuickCSS).
    Palette: bg #181818, raised #282828, text #d8d8d8, muted #7f7f7f. */
 
 :root,
@@ -55,7 +55,7 @@
   --interactive-active: #ffffff;
   --interactive-muted: #6b6b6b;
 
-  /* Accent: Alacritty blue in place of blurple */
+  /* Accent: Ash blue in place of blurple */
   --brand-experiment: #6a9fb5;
   --brand-500: #6a9fb5;
   --brand-560: #82b8c8;
@@ -80,7 +80,7 @@ body, button, input, textarea, select {
   font-family: var(--font-primary);
 }
 
-/* Code blocks: Alacritty syntax colors */
+/* Code blocks: Ash syntax colors */
 .hljs { background: #282828 !important; color: #d8d8d8; }
 .hljs-comment, .hljs-quote { color: #7f7f7f; font-style: italic; }
 .hljs-keyword, .hljs-selector-tag, .hljs-built_in { color: #aa759f; }

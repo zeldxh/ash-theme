@@ -1,6 +1,6 @@
 # Palette
 
-Alacritty's default dark colors. Every port uses these values; change them here first.
+Based on Alacritty's default dark colors. Every port uses these values; change them here first.
 
 | Role | Hex |
 |---|---|

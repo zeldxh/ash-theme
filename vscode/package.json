@@ -1,7 +1,7 @@
 {
-  "name": "alacritty-theme",
-  "displayName": "Alacritty",
-  "description": "Alacritty default palette",
+  "name": "ash-theme",
+  "displayName": "Ash",
+  "description": "Ash, a dark neutral palette",
   "version": "1.0.0",
   "publisher": "zeldxh",
   "author": {
@@ -17,9 +17,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Alacritty",
+        "label": "Ash",
         "uiTheme": "vs-dark",
-        "path": "./themes/alacritty-color-theme.json"
+        "path": "./themes/ash-color-theme.json"
       }
     ]
   }
